@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root [data-theme="skeleton"] {
+    --theme-font-family-base: "Roboto", sans-serif;
+    --theme-font-family-heading: "Roboto Slab", serif;
+}
+
+.code {
+    font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+        Consolas, "Liberation Mono", "Courier New", monospace;
+    background-color: transparent !important;
+}
+
+.pre {
+    font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+        Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.serif {
+    font-family: var(--theme-font-family-heading);
+}
+
+.monospace {
+    font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+        Consolas, "Liberation Mono", "Courier New", monospace;
+}
